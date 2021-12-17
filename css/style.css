@@ -1,0 +1,87 @@
+body{
+	text-align: center;
+	background-color: grey;
+}
+
+h1{
+	color : pink ;
+	font-size : 50px;
+}
+
+img{
+	height: 400px ;
+	border-radius: 50px ;
+}
+
+h2{
+	color : pink ;
+	font-size : 50px;
+
+}
+
+p{
+	color : black ;
+	font-size : 20px;
+}
+
+.btn-pink{
+	background-color: pink;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+
+}
+
+.btn-pink:hover{
+	background-color: white;
+	color :pink;
+}
+
+.container{
+	width: 1200px;
+	margin : 10px auto;
+
+}
+
+.introduction{
+	background: white ;
+	padding :90px;
+	margin : 80px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius : 8px;
+
+}
+
+.cardwhite{
+	background:white;
+	padding :90px;
+	margin : 80px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius : 8px;
+
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-decoration: none;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+a:hover{
+	color :pink;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
